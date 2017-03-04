@@ -1,0 +1,16 @@
+Criar projeto com versão especifica
+
+composer create-project laravel/laravel estoque "5.0."
+
+
+subir servidor de desenvolvimento do PHP
+
+php artisan serve
+
+
+alterar namespace
+
+php artisan app:name nome_da_app
+
+
+php artisan make:model Produto
