@@ -1,3 +1,11 @@
+#instalando Git no ubuntu
+
+sudo apt-get install git
+
+
+
+#Conectando com git hub
+
 Gerar chave SSH
 
 ssh-keygen -t rsa -C "seu_email@provedor.com"
