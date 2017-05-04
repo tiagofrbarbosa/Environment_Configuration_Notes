@@ -1,0 +1,29 @@
+Virar Link
+
+route add -net IP_RANGE netmask 255.255.0.0 gw GATEWAY
+route delete -net IP_RANGE netmask 255.255.0.0 gw GATEWAY
+
+--- service squid reload
+
+
+--- Comandos
+
+vi /etc/squid/n3
+
+tail -f /var/log/squid/acess.log | grep IP
+
+
+-- liberar IP para acesso a internet
+
+vi /etc/sysconfig/firewall.sh
+
+service firewall restart
+
+service squid reload
+
+
+-- liberar site
+
+vi /etc/squid/sites_liberados
+
+service squid reload
